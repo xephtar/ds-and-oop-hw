@@ -1,0 +1,23 @@
+// trav = head;
+// while (trav) {
+//   occ = trav->list;
+// 		if(trav->character == 10){
+// 		cout << "<LN>";
+// 		}else if(isspace(trav->character)){
+//       cout << "<SP>";
+//     }else{
+//       cout << trav->character;
+//     }
+//   while (occ) {
+// 		if(occ->character == 10){
+// 			cout << "-> " << "<LN>" << occ->occurrence;
+// 		}else if(isspace(occ->character)){
+//       cout << "-> " << "<SP>" << occ->occurrence;
+//     }else{
+//       cout << "-> " << occ->character << occ->occurrence;
+//     }
+//     occ = occ->next;
+//   }
+//   trav = trav->next;
+//   cout << endl;
+// }
